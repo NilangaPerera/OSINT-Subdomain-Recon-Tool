@@ -1,5 +1,4 @@
 # OSINT-Subdomain-Recon-Tool
-OSINT Subdomain Recon Tool
 
 I have created this tool to automate the subdomain enumeration process to identify all the valid subdomains which can be used when conducting OSINT and Phishing assessments.
 
@@ -13,6 +12,7 @@ Enjoy the tool...!
 
 
 ![Screen Shot 2022-07-27 at 1 12 29 am](https://user-images.githubusercontent.com/6763366/194764961-07bb6b95-935c-4ace-9dfc-4309e57c3815.png)
+
 
 # Installation
 
@@ -36,3 +36,4 @@ sudo bash install.sh
 ```bash
 bash osint-subdom-recon.sh <domain.com.au>
 ```
+
