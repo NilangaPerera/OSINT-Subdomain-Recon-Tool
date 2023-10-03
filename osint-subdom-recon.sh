@@ -74,4 +74,4 @@ cat $subdomain_path/alive.txt | grep $target_domain | sort -u > $subdomain_path/
 
 # eyewitness tool
 echo -e "${Yellow} [+] Launching EyeWitness..."
-EyeWitness/Python/EyeWitness.py -d $eyewitness_info -f $subdomain_path/alive-sort.txt --only-ports 443 --timeout 10
+eyewitness -d $eyewitness_info -f $subdomain_path/alive-sort.txt --only-ports 443 --timeout 10
