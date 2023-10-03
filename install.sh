@@ -34,10 +34,7 @@ apt install httprobe
 
 # This command will install eyewitness tool:
 echo -e "${BIBlue} [+] Installing eyewitness..."
-git clone https://github.com/FortyNorthSecurity/EyeWitness.git
-cd EyeWitness/Python/setup
-./setup.sh
-cd ../../..
+apt install eyewitness
 
 
 echo -e "${Yellow} [+] Installation has been successfully completed!"
