@@ -10,7 +10,7 @@ apt update
 
 # This command will install whois tool:
 echo -e "${BIBlue} [+] Installing whois..."
-apt install&nbsp;whois
+apt install whois
 
 # This command will install sublist3r tool:
 echo -e "${BIBlue} [+] Installing sublist3r..."
